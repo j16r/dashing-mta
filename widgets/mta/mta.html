@@ -1,0 +1,7 @@
+<h1 class="title">New York Subway Status</h1>
+<ol>
+  <li data-foreach-item="items" data-bind-class="item.name | prepend 'line-' | append ' ' | append item.status">
+    <span data-bind="item.name"></span>
+  </li>
+</ol>
+<p class="updated-at" data-bind="updatedAtMessage"></p>
