@@ -1,4 +1,5 @@
 require 'nokogiri'
+require 'httparty'
 
 MTA_URL = 'http://www.mta.info/status/serviceStatus.txt'
 LINES = %W[123 456 7 ACE L S BDFM NQR JZ G]
