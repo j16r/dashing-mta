@@ -52,8 +52,19 @@ $background-color: #3b5cac
     display: inline-block
     font-weight: bold
 
-    &.online
-      border: 3px solid black
+    &.delays
+      animation: delays 5s infinite
 
     &.offline
-      opacity: 0.4
+      opacity: 0.2
+
+@keyframes delays
+  25%
+    opacity: 0.2
+    transition: opacity ease-in
+  50%
+    opacity: 1
+    transition: opacity ease-in
+  75%
+    opacity: 0.2
+    transition: opacity ease-in
