@@ -3,6 +3,8 @@
 A simple [Dashing](https://github.com/Shopify/dashing) widget to show the
 status of the New York subway.
 
+![ScreenShot](https://raw.github.com/excepttheweasel/dashing-mta/master/screenshot.png)
+
 ## Installation
 
 Clone this repo and copy the files under ```job``` and ```widget``` into your
