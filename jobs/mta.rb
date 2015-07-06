@@ -7,6 +7,7 @@ LINES = %W[123 456 7 ACE L S BDFM NQR JZ G]
 def status_as_class description
   case description.downcase
   when 'good service' then 'online'
+  when 'delays' then 'delays'
   when 'service change' then 'delays'
   else 'offline'
   end
